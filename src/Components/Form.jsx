@@ -49,10 +49,10 @@ function Form() {
             "Content-Type": "application/json",
           },
         });
-        // alert(response.data.message || "Email sent successfully!");
+        alert("Thank you! Your message was sent successfully. Our team will contact you soon.");
         resetForm(); 
       } catch (error) {
-        alert(error.response?.data?.error || "Failed to send email.");
+        alert("Something went wrong. Please try again later.");
       } finally {
         setLoading(false)
       }
