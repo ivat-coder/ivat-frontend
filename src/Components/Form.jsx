@@ -168,7 +168,7 @@ function Form() {
             type="submit"
             className="w-full bg-[#0181DD] text-white font-bold py-2 px-4 rounded-md"
           >
-            { !loading ? 'Register' : <CircularProgress  color="inherit"  fontSize="small" />}
+            { !loading ? 'Inquire now' : <CircularProgress  color="inherit"  fontSize="small" />}
           </button>
         </form>
       </div>
