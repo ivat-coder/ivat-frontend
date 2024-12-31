@@ -183,8 +183,8 @@ const Home = () => {
         <p className="text-md md:text-lg mb-6">
           Contact us today for a consultation and make your office move effortless.
         </p>
-        <button className="bg-white text-amber-500 font-semibold py-2 px-6 rounded-full hover:bg-gray-100 transition-all">
-         <a href="wa.link/3u9mz6" >Contact us </a>
+        <button className="bg-white text-amber-500 font-semibold py-2 px-6 rounded-full hover:bg-gray-100 transition-all" onclick="window.location.href='wa.link/3u9mz6';">
+         Contact us 
         </button>
       </div>
       </div>
