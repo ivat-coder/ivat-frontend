@@ -184,7 +184,7 @@ const Home = () => {
           Contact us today for a consultation and make your office move effortless.
         </p>
         <button className="bg-white text-amber-500 font-semibold py-2 px-6 rounded-full hover:bg-gray-100 transition-all">
-          Contact us
+         <a href="wa.link/3u9mz6" >Contact us </a>
         </button>
       </div>
       </div>
